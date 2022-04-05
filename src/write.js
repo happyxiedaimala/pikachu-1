@@ -55,7 +55,7 @@ let string = `
 	top: 118px;
 	border-color: black transparent transparent transparent;
 	border-radius: 50%;
-	z-index: 2;
+	z-index: 10;
 }
 @keyframes rock {
 	0% {
