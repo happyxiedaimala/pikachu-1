@@ -70,7 +70,7 @@ let string = `
 		transform: rotate(0deg);
 	}
 }
-/*然后我们来画皮卡丘的嘴巴*/
+/*接下来，我们来画皮卡丘的嘴巴*/
 .mouth {
 	width: 200px;
 	height: 200px;
@@ -135,7 +135,7 @@ let string = `
 	bottom: -170px;
 	border-radius: 50%;
 }
-/*最后我们画两个可爱的脸颊！*/
+/*最后我们画两个红彤彤的脸颊！*/
 .face {
 	position: absolute;
 	width: 420px;
@@ -160,8 +160,8 @@ let string = `
 	transform-origin: 25% 0;
 }
 /*呼，终于画好了，这只皮卡丘就送给你吧 ~
-* 用鼠标摸摸它可爱的脸
-* 它会开心的和你说话哦！
+* 用鼠标摸摸它可爱的小脸
+* 它会开心地和你说话哦！
 */
 `;
 let speed = 50;
