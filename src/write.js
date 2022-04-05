@@ -52,7 +52,7 @@ let string = `
 	position: absolute;
 	left: 50%;
 	margin-left: -14px;
-	top: 124px;
+	top: 118px;
 	border-color: black transparent transparent transparent;
 	border-radius: 50%;
 }
@@ -87,7 +87,8 @@ let string = `
 	height: 30px;
 	left: 50%;
 	background-color: RGB(255, 230, 0);
-	z-index: 1;
+	z-index: 10;
+	top: -15px;
 }
 .lips.left {
 	border-bottom-left-radius: 61px 28px;
@@ -106,7 +107,6 @@ let string = `
 	position: absolute;
 	width: 100%;
 	height: 166px;
-	top: 12px;
 	overflow: hidden;
 }
 .oralDown {
