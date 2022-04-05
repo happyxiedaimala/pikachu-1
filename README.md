@@ -1,5 +1,5 @@
 # 画一个皮卡丘给你
-点击此处预览：https://happyxiedaimala.github.io/pikachu-1/src/write.html
+请在PC端点击此处预览：https://happyxiedaimala.github.io/pikachu-1/src/write.html
 ## 介绍
 动态展示画一个皮卡丘，其中画的进度可以通过暂停和播放来控制
 
