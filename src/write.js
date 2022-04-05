@@ -79,6 +79,7 @@ let string = `
 	left: 50%;
 	margin-left: -100px;
 	top: 150px;
+	overflow: hidden;
 }
 /*首先来画上嘴唇*/
 .lips {
