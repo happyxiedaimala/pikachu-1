@@ -55,6 +55,7 @@ let string = `
 	top: 118px;
 	border-color: black transparent transparent transparent;
 	border-radius: 50%;
+	z-index: 2;
 }
 @keyframes rock {
 	0% {
@@ -87,7 +88,7 @@ let string = `
 	height: 30px;
 	left: 50%;
 	background-color: RGB(255, 230, 0);
-	z-index: 10;
+	z-index: 1;
 	top: -15px;
 }
 .lips.left {
