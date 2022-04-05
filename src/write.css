@@ -1,0 +1,65 @@
+.skin {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 50vh;
+}
+#content {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50vh;
+	overflow: scroll;
+}
+#content::-webkit-scrollbar {
+	display: none;
+}
+#buttons {
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 10;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+button {
+	color: white;
+	width: 80px;
+	height: 30px;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#btnPlay {
+	background-color: rgb(134, 122, 100);
+}
+#btnPlay:hover {
+	background-color: rgb(56, 52, 45);
+}
+#btnPause {
+	background-color: teal;
+}
+#btnPause:hover {
+	background-color: rgb(5, 94, 136);
+}
+#playSlow {
+	background-color: rgb(152, 226, 4);
+}
+#playSlow:hover {
+	background-color: greenyellow;
+}
+#playNormal:hover {
+	background-color: orange;
+}
+#playNormal {
+	background-color: rgb(219, 143, 1);
+}
+#playFast {
+	background-color: red;
+}
+#playFast:hover {
+	background-color: rgb(247, 66, 66);
+}
